@@ -1,0 +1,111 @@
+/*	Very	large	screens	*/
+@media	(min-width:	1025px)	{
+    body {
+        width: 80%;
+        margin: auto;
+    }
+    p {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 115%;   
+    }
+    p > a {
+        font-size: 115%;
+    }
+    .mainimage {
+        width: 100%;
+    }
+
+    article > img {
+        width: 100%;   
+    }
+
+    .visualnav {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .visualnav img {
+        width: 100%;
+    }
+
+    .socialmedia {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 60%;   
+    }
+
+    article {
+        width: 60%;
+    }
+}
+
+/*	For	large	screens	*/
+@media	(max-width:	1024px)	{
+    body {
+        width: 80%;   
+        margin: auto;
+    }
+}
+
+/*	For	midrange	screens	*/
+@media	(max-width:	768px)	{
+    body {
+        width: 90%;   
+        margin: auto;
+    }
+    p {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 115%;   
+    }
+    p > a {
+        font-size: 115%;
+    }
+    .socialmedia {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 100%;   
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
+/*	For	small	screens	*/
+@media	(max-width:	480px)	{
+    body {
+        width: 100%;   
+    }
+    p {
+        font-size: 75%;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 100%;   
+    }
+    p > a {
+        font-size: 100%;
+    }
+}
+    

@@ -1,0 +1,254 @@
+/******MEDIA QUERIES********/
+/*	Very	large	screens	*/
+@media	(min-width:	1025px)	{
+    body {
+        width: 80%;
+        margin: auto;
+    }
+    p {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 115%;   
+    }
+    p > a {
+        font-size: 115%;
+    }
+    article > img {
+        width: 100%;   
+    }
+    .socialmedia {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 60%;   
+    }
+
+    article {
+        width: 60%;
+    }
+}
+
+/*	For	large	screens	*/
+@media	(max-width:	1024px)	{
+    body {
+        width: 80%;   
+        margin: auto;
+    }
+    article {
+        width: 60%;   
+    }
+    article > img {
+        width: inherit;   
+    }
+        .socialmedia {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 60%;   
+    }
+}
+
+/*	For	midrange	screens	*/
+@media	(max-width:	768px)	{
+    body {
+        width: 90%;   
+        margin: auto;
+    }
+    p {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 115%;   
+    }
+    p > a {
+        font-size: 115%;
+    }
+    .socialmedia {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 100%;   
+    }
+
+    article {
+        width: 100%;
+    }
+    article > img {
+        width: inherit;   
+    }
+    .race {
+        width: 100%;   
+    }
+}
+
+/*	For	small	screens	*/
+@media	(max-width:	480px)	{
+    body {
+        width: 100%;   
+    }
+    p {
+        font-size: 75%;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 100%;   
+    }
+    p > a {
+        font-size: 100%;
+    }
+        article {
+        width: 100%;
+    }
+    article > img {
+        width: inherit;   
+    }
+        .socialmedia {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .socialmedia img {
+        width: 100%;   
+    }
+    .register {
+        width: 100%;   
+    }
+}
+    
+
+/******** ENTIRE PAGE STYLES ******/
+p, a, h2, h3, ul, li, figcaption{
+    font-family: tahoma;
+    color: #333;
+}
+p {
+}
+h1 {
+    font-family: impact;
+    color: #333;
+}
+p > a {
+    color: #00C2B2;
+}
+p > a:hover {
+    color: #FF7200;
+}
+.heading {
+    background: #00C2B2;
+    color: #333;
+}
+a > img:hover {
+    background-color: #d9d9d9;
+    position:relative;
+    opacity: 0.50;
+    -moz-opacity: 50%;
+    -webkit-opacity: 50%;
+    z-index: 2;
+}
+
+/*******HEADER******/
+.header {
+
+}
+.header img {
+    width: 100%;
+}
+
+/******** NAVIGATION BAR ******/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    flex-wrap: nowrap;
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+
+}
+nav > ul > li {
+    flex-grow: 1;
+    float: left;
+    text-align: center;
+    font-size: 70%;
+    width: 25%;
+}
+nav li > ul {
+    position: absolute;
+    display: none;
+}
+nav > ul > li:hover > ul {
+    display: block;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #d9d9d9;
+    color: #00C2B2;
+}
+
+/*****FOOTER*******/
+
+footer {
+    background: #333;
+    text-align: center;
+}
+footer a {
+    color: #d9d9d9;
+}
+footer p {
+    color: #d9d9d9;   
+}
+footer ul {
+    list-style: none;   
+}
+
+/**FRONT PAGE***/
+.mainimage {
+    width: 100%;   
+}
+    .visualnav {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .visualnav img {
+        width: 100%;
+    }
+
+/******SITE PLAN*******/
+.colorscheme {
+    width: 100%;   
+}
+.wireframe img {
+    display: block;   
+    margin: auto;
+}
